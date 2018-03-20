@@ -1,10 +1,17 @@
 body{
     background: url(../images/background.png);
 
+
 }
 h1{
     font-family: fantasy;
-    color: red;
+    color:#f2c507 ;
+}
+p{
+    color: #696969;
+}
+h2{
+    color: #6b7a8f
 }
 .header{
     background:url(../images/giraffe.jpg);
@@ -18,7 +25,7 @@ h1{
 .nav{
     height: 50px;
     width: 1000px;
-    background-color: #f3f3f3;
+    background-color: #6fff00;
     margin-left: auto;
     margin-right: auto;
     position: -webkit-sticky;
@@ -38,7 +45,7 @@ ul{
     padding: 0;
     overflow: hidden;
     border: 1px solid #e7e7e7;
-    background-color: #f3f3f3;
+    background-color: ##666;
 
 
 }
@@ -56,10 +63,10 @@ ul{
 .container{
     width: 1000px;
     height: auto;
-    background-color: grey;
     margin-left: auto;
     margin-right: auto;
-    overflow: hidden;
+    background-color: white;
+
 }
 img {
     width: 300px;
@@ -138,5 +145,10 @@ img {
     margin: 10px;
     padding: 10px;
 
+}
 
+.footer{
+    width: inherit;
+    margin-left: 10px;
+    margin-right:10px;
 }
