@@ -1,25 +1,51 @@
+body{
+    background: url(images/background.png);
+
+}
 .header{
+    background-image:url(images/giraffe.jpg);
     height: 300px;
     width: 1000px;
-    background-color: yellow;
+    ackground-color: yellow;
     margin-left: auto;
     margin-right: auto;
+
 }
 .nav{
     height: 50px;
     width: 1000px;
-    background-color: green;
+    background-color: #f3f3f3;
     margin-left: auto;
     margin-right: auto;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
 
 }
 
 ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+
 
 }
 li{
     padding: 5px;
     display: inline-block;
+}
+li a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
 .container{
     width: 1000px;
