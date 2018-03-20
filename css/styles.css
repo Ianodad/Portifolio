@@ -6,7 +6,7 @@ body{
     background-image:url(images/giraffe.jpg);
     height: 300px;
     width: 1000px;
-    ackground-color: yellow;
+    background-color: yellow;
     margin-left: auto;
     margin-right: auto;
 
@@ -17,17 +17,19 @@ body{
     background-color: #f3f3f3;
     margin-left: auto;
     margin-right: auto;
-    position: -webkit-sticky; /* Safari */
+    position: -webkit-sticky;
     position: sticky;
     top: 0;
 
 }
-
 ul{
+    list-style-type: none;
+}
+
+.nav ul{
     list-style-type: none;
     margin: 0;
     padding: 0;
-    list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
@@ -36,11 +38,11 @@ ul{
 
 
 }
-li{
+.nav li{
     padding: 5px;
     display: inline-block;
 }
-li a {
+.nav li a {
     display: block;
     color: #666;
     text-align: center;
@@ -109,7 +111,17 @@ img {
     margin: 5px;
     width: inherit;
     font-style: italic;
+}
+.others{
+    display: inline-block;
+    width: 590px;
+    margin-left: auto;
+    margin-right: auto;
 
-
-
+}
+.projects{
+    float: right;
+}
+.skills{
+    float: right;
 }
