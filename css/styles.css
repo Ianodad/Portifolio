@@ -1,18 +1,22 @@
 body{
     background: url(../images/background.png);
-
-
 }
 h1{
-    font-family: fantasy;
-    color:#f2c507 ;
+    font-size: 70px;
+    color:#f2c507;
+
 }
 p{
     color: #696969;
     font-family: 'open', sans;
 }
 h2{
-    color: #6b7a8f
+    color: #6b7a8f;
+    font-family: Lato;
+    font-size: 40px;
+}
+h3{
+    font-size: 30px;
 }
 .header{
     background:url(../images/giraffe.jpg);
