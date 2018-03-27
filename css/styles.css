@@ -1,46 +1,64 @@
 body{
-    background: url(images/background.png);
+    background: url(../images/background.png);
+}
+h1{
+    font-size: 70px;
+    color:#f2c507;
 
 }
+p{
+    color: #696969;
+    font-family: 'open', sans;
+}
+h2{
+    color: #6b7a8f;
+    font-family: Lato;
+    font-size: 40px;
+}
+h3{
+    font-size: 30px;
+}
 .header{
-    background-image:url(images/giraffe.jpg);
+    background:url(../images/giraffe.jpg);
     height: 300px;
     width: 1000px;
-    ackground-color: yellow;
+    background-color: yellow;
     margin-left: auto;
     margin-right: auto;
-
+    background-size:1000px;
 }
 .nav{
     height: 50px;
     width: 1000px;
-    background-color: #f3f3f3;
+    background-color: #6fff00;
     margin-left: auto;
     margin-right: auto;
-    position: -webkit-sticky; /* Safari */
+    position: -webkit-sticky;
     position: sticky;
     top: 0;
 
 }
-
 ul{
+    list-style-type: none;
+}
+
+.nav ul{
     list-style-type: none;
     margin: 0;
     padding: 0;
-    list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     border: 1px solid #e7e7e7;
-    background-color: #f3f3f3;
+    background-color: ##666;
 
 
 }
-li{
+.nav li{
     padding: 5px;
     display: inline-block;
 }
-li a {
+.nav li a {
     display: block;
     color: #666;
     text-align: center;
@@ -50,10 +68,10 @@ li a {
 .container{
     width: 1000px;
     height: auto;
-    background-color: grey;
     margin-left: auto;
     margin-right: auto;
-    overflow: hidden;
+    background-color: white;
+
 }
 img {
     width: 300px;
@@ -109,7 +127,36 @@ img {
     margin: 5px;
     width: inherit;
     font-style: italic;
+}
+.others{
+    display: inline-block;
+    width: 590px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.projects{
+    float: right;
+}
+.skills{
+    float: right;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+.intro h2{
 
 
+}
+.logo{
+    margin: 50 50 50 50;
+    padding: 40 40 40 40;
+}
 
+.footer{
+    width: inherit;
+    margin-left: 10px;
+    margin-right:10px;
 }
